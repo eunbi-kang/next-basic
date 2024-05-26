@@ -1,6 +1,9 @@
-import React from "react";
+'use client'
+import { createContext } from "react";
 
-const NextbasicContext = React.createContext();
+const NextbasicContext = createContext();
+
+
 
 export const NextbasicProvider = NextbasicContext.Provider;
 export const NextbasicConsumer = NextbasicContext.Consumer;

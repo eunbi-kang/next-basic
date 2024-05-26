@@ -28,6 +28,6 @@
     "typescript": "^5"
   },
   "resolutions": {
-    "react-countup/countup.js" : "2.5.0"
+    "react-countup/countup.js": "2.5.0"
   }
 }
