@@ -1,0 +1,2 @@
+# next-basic
+NextJS practice
