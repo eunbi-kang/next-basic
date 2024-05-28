@@ -11,7 +11,7 @@ node_modules
 
 # next.js
 .next
-.next*
+.next/cache
 /.next/
 /out/
 
