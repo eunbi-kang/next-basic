@@ -1,11 +1,11 @@
-'use client'
-import { createContext } from "react";
+// 'use client'
+// import { createContext } from "react";
 
-const NextbasicContext = createContext();
+// const NextbasicContext = createContext();
 
 
 
-export const NextbasicProvider = NextbasicContext.Provider;
-export const NextbasicConsumer = NextbasicContext.Consumer;
+// export const NextbasicProvider = NextbasicContext.Provider;
+// export const NextbasicConsumer = NextbasicContext.Consumer;
 
-export default NextbasicContext;
+// export default NextbasicContext;

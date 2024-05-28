@@ -1,12 +1,10 @@
 {
-  "homepage": "https://eunbi-kang.github.io/next-basic",
   "name": "next-basic",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "next build && touch out/.nojekyll && git add -f out/ && git commit -m 'deploy to gh-pages' && git subtree push --prefix out origin gh-pages",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,7 +13,8 @@
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@types/node": "^20",
